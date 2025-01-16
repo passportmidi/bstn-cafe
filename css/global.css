@@ -8,19 +8,13 @@ body {
   font-weight: 400;
 }
 
-body, a {
+body,
+a {
   color: #393939;
 }
 
 a {
   text-decoration: none;
-}
-
-nav *,
-.card,
-.stack__desc--intro,
-.stack__img--intro {
-  display: inline-block;
 }
 
 header,
@@ -29,13 +23,16 @@ footer {
   background-color: #fff0ed;
 }
 
-header, .header__logo {
+header,
+.header__logo,
+.header-nav__list {
   display: flex;
 }
 
 header {
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
 }
 
 h1,
@@ -88,6 +85,10 @@ ul {
   width: 3.125rem;
 }
 
+.header-nav__list {
+  justify-content: space-evenly;
+}
+
 .header-nav__link--shop-now {
   color: #5bacc3;
 }
@@ -95,4 +96,3 @@ ul {
 .stack__price {
   color: #5bacc3;
 }
-

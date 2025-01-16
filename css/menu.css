@@ -1,12 +1,19 @@
-.stack, .stack__body {
+.stack,
+.stack__body,
+.main-nav * {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.stack__title, .stack__body {
-  margin: 1.25rem; 
+.stack,
+.stack__body {
+  flex-direction: column;
+}
+
+.stack__title,
+.stack__body {
+  margin: 1.25rem;
 }
 
 h1,
@@ -19,9 +26,6 @@ h1,
 }
 
 .stack--hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 43.75rem;
   width: 100%;
   background-image: url("../assets/images/coffee-circle.jpg");
@@ -41,12 +45,8 @@ h1,
   text-align: center;
 }
 
-.main-nav * {
-  display: inline-block;
-}
-
 .main-nav__link {
-  border-left: .3125rem solid #5bacc3;
+  border-left: 0.3125rem solid #5bacc3;
 }
 
 .stack--hot-drinks,
