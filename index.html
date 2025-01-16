@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/global.css" rel="stylesheet" />
+    <link href="./css/landing.css" rel="stylesheet" />
+    <title>Coffee Shop - Home</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div class="header__logo">
+          <img
+            class="icon icon--header"
+            src="../assets/logos/coffee-beans-logo-and-footer.svg"
+            alt="coffee bean logo"
+          />
+          <h2 class="header__title">nitro</h2>
+        </div>
+      </a>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__item">
+            <a href="index.html" class="header-nav__link">ABOUT</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="./pages/menu.html" class="header-nav__link">MENU</a>
+          </li>
+          <li class="header-nav__item">
+            <a
+              href="./pages/menu.html"
+              class="header-nav__link header-nav__link--shop-now"
+              >SHOP NOW</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="stack stack--intro">
+      <article class="stack__desc stack__desc--intro">
+        <h1>Nitro Coffee</h1>
+        <p class="stack__copy stack__copy--intro">
+          Coffee is a brewed drink prepared from roasted coffee beans, the seeds
+          of berries from certain Coffea species.
+        </p>
+        <a href="./pages/menu.html"
+          ><button class="stack__button">SHOP NOW</button></a
+        >
+      </article>
+      <img
+        src="./assets/images/coffeebeans-hero.png"
+        alt="coffee bag"
+        class="stack__img stack__img--intro"
+      />
+    </section>
+
+    <section class="stack stack--products">
+      <h2>Our Products</h2>
+      <div class="stack__container">
+        <article class="card">
+          <img
+            class="card__image"
+            src="./assets/images/coffeebeans.png"
+            alt="coffee beans"
+          />
+          <div class="card__text-container">
+            <div class="card__body-container">
+              <h3 class="card__title">Coffee Beans</h3>
+              <p class="card__desc">Pack of 3</p>
+            </div>
+            <p class="card__price stack__price">$19</p>
+          </div>
+        </article>
+        <article class="card">
+          <img
+            class="card__image"
+            src="./assets/images/coldbrew.png"
+            alt="cold brew"
+          />
+          <div class="card__text-container">
+            <div class="card__body-container">
+              <h3 class="card__title">Cold Brew</h3>
+              <p class="card__desc">1 can</p>
+            </div>
+            <p class="card__price stack__price">$5</p>
+          </div>
+        </article>
+        <article class="card">
+          <img
+            class="card__image"
+            src="./assets/images/inhousebrew.png"
+            alt="in-house brew"
+          />
+          <div class="card__text-container">
+            <div class="card__body-container">
+              <h3 class="card__title">In-house Brew</h3>
+              <p class="card__desc">1 cup</p>
+            </div>
+            <p class="card__price stack__price">$3</p>
+          </div>
+        </article>
+      </div>
+      <a href="./pages/menu.html"
+        ><button class="stack__button stack__button--products">
+          VIEW ALL
+        </button></a
+      >
+    </section>
+
+    <section class="stack stack--discount">
+      <h2>We're Different</h2>
+      <p class="stack__copy stack__copy--discount">
+        We grow and roast our own beans. Every bean, every cup, every step of
+        the way, we strive for excellence.
+      </p>
+      <img
+        class="icon icon--discount"
+        src="./assets/logos/planting.svg"
+        alt="coffee plants"
+      />
+      <img
+        class="icon icon--discount"
+        src="./assets/logos/coffee-beans.svg"
+        alt="coffee beans"
+      />
+      <img
+        class="icon icon--discount"
+        src="./assets/logos/coffee-cup.svg"
+        alt="coffee cup"
+      />
+      <a href="#"
+        ><button class="icon icon--discount">
+          LEARN MORE
+        </button></a
+      >
+      <p class="discount-text">
+        Get 20% off your first order with code:
+        <span class="discount-text--bold">FirstNitro</span>
+      </p>
+    </section>
+
+    <footer>
+      <article class="footer__item">
+        <h3 class="footer__title">Address</h3>
+        <p class="footer__copy">503 Broadway Penthouse</p>
+        <p class="footer__copy">New York</p>
+      </article>
+      <article class="footer__item">
+        <h3 class="footer__title">Hours</h3>
+        <p class="footer__copy">
+          <span class="footer__copy--bold">Monday - Friday:</span> 9am - 7pm
+        </p>
+        <p class="footer__copy">
+          <span class="footer__copy--bold">Saturday - Sunday:</span> 10am - 5pm
+        </p>
+      </article>
+      <article class="footer__item">
+        <h3 class="footer__title">Social</h3>
+        <a href="https://facebook.com/"
+          ><img
+            class="icon icon--footer"
+            src="./assets/logos/Facebook-Icon.svg"
+            alt="facebook"
+        /></a>
+        <a href="https://yelp.com/"
+          ><img
+            class="icon icon--footer"
+            src="./assets/logos/Yelp-Icon.svg"
+            alt="yelp"
+        /></a>
+        <a href="https://instagram.com"
+          ><img
+            class="icon icon--footer"
+            src="./assets/logos/Instagram-Icon.svg"
+            alt="instagram"
+        /></a>
+      </article>
+    </footer>
+  </body>
+</html>

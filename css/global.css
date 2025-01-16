@@ -1,0 +1,107 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+body, a {
+  color: #393939;
+}
+
+a {
+  text-decoration: none;
+}
+
+section,
+nav,
+footer,
+button,
+.card__image {
+  display: block;
+}
+
+nav *,
+.card,
+.stack__desc--intro,
+.stack__img--intro,
+.footer__item {
+  display: inline-block;
+}
+
+header,
+footer {
+  padding: 1rem;
+  background-color: #fff0ed;
+}
+
+header, .header__logo {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  align-items: end;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+}
+
+h3 {
+  font-size: 2.0625rem;
+}
+
+nav a,
+button {
+  font-size: 1.3125rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+nav li a {
+  margin: 1rem;
+  padding-left: 1.75rem;
+}
+
+button {
+  background-color: #5bacc3;
+  color: white;
+  border: none;
+  width: 11.25rem;
+  padding: 1.25rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header__logo {
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 3.125rem;
+}
+
+.header-nav__link--shop-now {
+  color: #5bacc3;
+}
+
+.stack__price {
+  color: #5bacc3;
+}
+
