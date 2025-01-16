@@ -1,4 +1,10 @@
-section h1, section p {
+/* TODO:
+- align and pad footer content properly - DONE
+- edit sub navigation to match style guide
+*/
+
+section h1,
+section p {
   margin: 1.25rem 0rem;
 }
 
@@ -33,7 +39,9 @@ footer,
   background-color: #f7f7f7;
 }
 
-.stack__container, .card__text-container {
+.stack__container,
+.card__text-container,
+footer {
   display: flex;
   flex-wrap: wrap;
 }
@@ -83,7 +91,9 @@ footer,
   color: #393939;
 }
 
-.card__title, .card__desc, .card__price {
+.card__title,
+.card__desc,
+.card__price {
   margin: 0;
   padding: 0;
 }
@@ -128,8 +138,13 @@ footer,
   font-weight: 700;
 }
 
+footer {
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
 .footer__item {
-  padding: 4rem;
+  padding: 1.25rem;
 }
 
 .footer__title {

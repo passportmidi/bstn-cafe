@@ -16,19 +16,10 @@ a {
   text-decoration: none;
 }
 
-section,
-nav,
-footer,
-button,
-.card__image {
-  display: block;
-}
-
 nav *,
 .card,
 .stack__desc--intro,
-.stack__img--intro,
-.footer__item {
+.stack__img--intro {
   display: inline-block;
 }
 
