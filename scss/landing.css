@@ -1,7 +1,135 @@
-/* TODO:
-- align and pad footer content properly - DONE
-- edit sub navigation to match style guide
-*/
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+body,
+a {
+  color: #393939;
+}
+
+a {
+  text-decoration: none;
+}
+
+header,
+footer {
+  padding: 1rem;
+  background-color: #fff0ed;
+}
+
+header,
+.header__logo,
+.header-nav__list {
+  display: flex;
+}
+
+header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+}
+
+h3 {
+  font-size: 2.0625rem;
+}
+
+nav a,
+button {
+  font-size: 1.3125rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+button {
+  background-color: #5bacc3;
+  color: white;
+  border: none;
+  width: 11.25rem;
+  padding: 1.25rem;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.stack__button-container {
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+}
+
+.stack__button--border {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 0.125rem solid #393939;
+  position: absolute;
+  top: -0.3125rem;
+  left: -0.3125rem;
+  z-index: 1;
+}
+
+.header__logo {
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 3.125rem;
+}
+
+.bg-icon {
+  width: 7.5rem;
+  opacity: 25%;
+}
+
+.header-nav__list {
+  justify-content: space-evenly;
+}
+
+.header-nav__link {
+  padding: 0rem 1.25rem;
+}
+
+.header-nav__link--shop-now {
+  color: #5bacc3;
+}
+
+.stack__price {
+  color: #5bacc3;
+}
+
+.blue-border {
+  box-sizing: border-box;
+  border: 0.3125rem solid #5bacc3;
+  position: absolute;
+  top: -0.9375rem;
+  left: -0.9375rem;
+  width: 100%;
+  height: 100%;
+}
 
 section h1,
 section p {
@@ -30,8 +158,7 @@ footer,
 .stack--intro,
 .stack__container,
 .card__text-container,
-.stack__icons--about
-footer {
+.stack__icons--about footer {
   flex-wrap: wrap;
 }
 
@@ -90,8 +217,8 @@ footer,
   height: 27.5rem;
   /* padding: 1.25rem; */
   margin: 1.25rem 2.5rem;
-  border-radius: .625rem;
-  box-shadow: 0 .3125rem .5625rem -0.0625rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
   color: rgba(0, 0, 0, 0.25);
   /* margin-left: 2.75rem;
   margin-right: 2.75rem;
@@ -122,7 +249,7 @@ footer,
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1.25rem;
-  border-radius: 0rem 0rem .625rem .625rem;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
 }
 
 .card__body-container {
@@ -205,4 +332,4 @@ footer {
 .bg-icon--right {
   top: 40%;
   left: 95%;
-}
+}/*# sourceMappingURL=landing.css.map */

@@ -1,0 +1,212 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+body,
+a {
+  color: #393939;
+}
+
+a {
+  text-decoration: none;
+}
+
+header,
+footer {
+  padding: 1rem;
+  background-color: #fff0ed;
+}
+
+header,
+.header__logo,
+.header-nav__list {
+  display: flex;
+}
+
+header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+}
+
+h3 {
+  font-size: 2.0625rem;
+}
+
+nav a,
+button {
+  font-size: 1.3125rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+button {
+  background-color: #5bacc3;
+  color: white;
+  border: none;
+  width: 11.25rem;
+  padding: 1.25rem;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.stack__button-container {
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+}
+
+.stack__button--border {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 0.125rem solid #393939;
+  position: absolute;
+  top: -0.3125rem;
+  left: -0.3125rem;
+  z-index: 1;
+}
+
+.header__logo {
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 3.125rem;
+}
+
+.bg-icon {
+  width: 7.5rem;
+  opacity: 25%;
+}
+
+.header-nav__list {
+  justify-content: space-evenly;
+}
+
+.header-nav__link {
+  padding: 0rem 1.25rem;
+}
+
+.header-nav__link--shop-now {
+  color: #5bacc3;
+}
+
+.stack__price {
+  color: #5bacc3;
+}
+
+.blue-border {
+  box-sizing: border-box;
+  border: 0.3125rem solid #5bacc3;
+  position: absolute;
+  top: -0.9375rem;
+  left: -0.9375rem;
+  width: 100%;
+  height: 100%;
+}
+
+.stack,
+.stack__body,
+.main-nav,
+.main-nav__list,
+.stack--hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stack,
+.stack__body {
+  flex-direction: column;
+}
+
+.stack__title,
+.stack__body {
+  margin: 1.25rem;
+}
+
+h1,
+.main-nav,
+.main-nav__item,
+.main-nav__link {
+  background-color: #393939;
+  color: white;
+  text-transform: uppercase;
+}
+
+.stack--hero {
+  height: 43.75rem;
+  width: 100%;
+  background-image: url("../assets/images/coffee-circle.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.stack--hero-text {
+  width: 18.75rem;
+  height: 12.5rem;
+}
+
+.stack--hero-text {
+  background-color: #393939;
+  position: relative;
+}
+
+.main-nav,
+.main-nav__item,
+.main-nav__link,
+.stack__copy {
+  text-align: center;
+}
+
+.main-nav {
+  width: 100%;
+  height: 5rem;
+  box-sizing: border-box;
+}
+
+.main-nav__link {
+  border-left: 0.3125rem solid #5bacc3;
+  margin: 1.25rem 0rem;
+  padding: 0rem 1.25rem;
+}
+
+.stack--hot-drinks,
+.stack--pastries {
+  background-color: #fff0ed;
+}
+
+.stack--cold-drinks {
+  background-color: #f7f7f7;
+}
+
+.stack__copy {
+  font-style: italic;
+  width: 40%;
+}/*# sourceMappingURL=menu.css.map */
