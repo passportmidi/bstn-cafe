@@ -35,8 +35,7 @@ h1,
   background-size: cover;
 }
 
-.stack--hero-text,
-.stack--hero-border {
+.stack--hero-text {
   width: 18.75rem;
   height: 12.5rem;
 }
@@ -44,14 +43,6 @@ h1,
 .stack--hero-text {
   background-color: #393939;
   position: relative;
-}
-
-.stack--hero-border {
-  box-sizing: border-box;
-  border: .3125rem solid #5bacc3;
-  position: absolute;
-  top: -0.9375rem;
-  left: -0.9375rem;
 }
 
 .main-nav,

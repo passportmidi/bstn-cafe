@@ -49,9 +49,12 @@
           Coffee is a brewed drink prepared from roasted coffee beans, the seeds
           of berries from certain Coffea species.
         </p>
-        <a href="./pages/menu.html"
-          ><button class="stack__button">SHOP NOW</button></a
-        >
+        <div class="stack__button-container">
+          <a class="stack__link" href="./pages/menu.html">
+            <div class="stack__button--border"></div>
+            <button class="stack__button">SHOP NOW</button></a
+          >
+        </div>
       </article>
       <img
         src="./assets/images/coffeebeans-hero.png"
@@ -106,11 +109,12 @@
           </div>
         </article>
       </div>
-      <a href="./pages/menu.html"
-        ><button class="stack__button stack__button--products">
-          VIEW ALL
-        </button></a
-      >
+      <div class="stack__button-container stack__button-container--products">
+        <a class="stack__link" href="./pages/menu.html">
+          <div class="stack__button--border"></div>
+          <button class="stack__button stack__button">VIEW ALL</button></a
+        >
+      </div>
     </section>
 
     <section class="stack stack--about">
@@ -137,14 +141,20 @@
             alt="coffee cup"
           />
         </div>
-        <a href="#"><button>LEARN MORE</button></a>
+        <div class="stack__button-container">
+          <a class="stack__link" href="./pages/menu.html">
+            <div class="stack__button--border"></div>
+            <button class="stack__button">LEARN MORE</button></a
+          >
+        </div>
       </div>
-      <div class="about-img">
+      <div class="about-image">
+        <div class="blue-border blue-border--about"></div>
         <img
-            class="about-img__fg"
-            src="./assets/images/tiltedcan.png"
-            alt="tilted cold brew can"
-          />
+          class="about-image__fg"
+          src="./assets/images/tiltedcan.png"
+          alt="tilted cold brew can"
+        />
       </div>
     </section>
 

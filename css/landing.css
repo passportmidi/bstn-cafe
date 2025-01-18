@@ -66,12 +66,12 @@ footer,
 }
 
 .stack--products h2,
-.stack__button--products {
+.stack__button-container--products {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.stack__button--products,
+.stack__button-container--products,
 .card__image,
 .discount-text {
   margin-left: auto;
@@ -113,7 +113,7 @@ footer,
   color: #909090;
 }
 
-.card__image.about-img {
+.card__image {
   padding: 1.25rem;
   height: 17.5rem;
 }
@@ -152,7 +152,7 @@ footer,
   margin-bottom: 1.25rem;
 }
 
-.about-img {
+.about-image {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -164,6 +164,7 @@ footer,
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .discount-text {
