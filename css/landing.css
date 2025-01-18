@@ -113,8 +113,9 @@ footer,
   color: #909090;
 }
 
-.card__image {
-  padding-top: 1rem;
+.card__image.about-img {
+  padding: 1.25rem;
+  height: 17.5rem;
 }
 
 .card__text-container {
