@@ -5,11 +5,11 @@
 
 section h1,
 section p {
-  margin: 1.25rem 0rem;
+  margin: 20px 0px;
 }
 
 .stack {
-  padding: 1.25rem 0rem;
+  padding: 20px 0px;
 }
 
 .stack--products, .discount-text {
@@ -67,8 +67,8 @@ footer,
 
 .stack--products h2,
 .stack__button-container--products {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .stack__button-container--products,
@@ -79,23 +79,23 @@ footer,
 }
 
 .stack__price {
-  font-size: 33px;
+  font-size: 2.0625rem;
   font-weight: bold;
 }
 
 .card {
   box-sizing: border-box;
   background-color: white;
-  width: 20.625rem;
-  height: 27.5rem;
-  /* padding: 1.25rem; */
-  margin: 1.25rem 2.5rem;
-  border-radius: 0.625rem;
-  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
+  width: 330px;
+  height: 440px;
+  /* padding: 20px; */
+  margin: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px;
   color: rgba(0, 0, 0, 0.25);
-  /* margin-left: 2.75rem;
-  margin-right: 2.75rem;
-  padding: 0rem;  */
+  /* margin-left: 44px;
+  margin-right: 44px;
+  padding: 0px;  */
 }
 
 .card__title {
@@ -114,15 +114,15 @@ footer,
 }
 
 .card__image {
-  padding: 1.25rem;
-  height: 17.5rem;
+  padding: 20px;
+  height: 280px;
 }
 
 .card__text-container {
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 1.25rem;
-  border-radius: 0rem 0rem 0.625rem 0.625rem;
+  padding: 32px 20px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .card__body-container {
@@ -133,7 +133,7 @@ footer,
 .stack--about {
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0rem;
+  margin: 40px 0px;
 }
 
 .stack__desc--about {
@@ -149,7 +149,7 @@ footer,
 
 .stack__icons--about {
   justify-content: space-between;
-  margin-bottom: 1.25rem;
+  margin-bottom: 20px;
 }
 
 .about-image {
@@ -158,9 +158,9 @@ footer,
   justify-content: center;
   align-items: center;
   background-image: url("../assets/images/coldbrewbackground.png");
-  width: 25rem;
-  height: 25rem;
-  padding: 1.25rem;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -168,11 +168,11 @@ footer,
 }
 
 .discount-text {
-  font-size: 2.8125rem;
+  font-size: 45px;
   color: white;
   width: 90%;
   background-color: #393939;
-  padding: 1.5rem;
+  padding: 24px;
 }
 
 .discount-text--bold,
@@ -182,13 +182,26 @@ footer,
 
 footer {
   justify-content: space-evenly;
+  overflow: hidden;
   align-items: baseline;
-}
-
-.footer__item {
-  padding: 1.25rem;
+  position: relative;
+  padding: 40px;
 }
 
 .footer__title {
-  padding: 1.25rem 0rem;
+  padding: 20px 0px;
+}
+
+.bg-icon {
+  position: absolute;
+}
+
+.bg-icon--left {
+  top: 5%;
+  left: -2%;
+}
+
+.bg-icon--right {
+  top: 40%;
+  left: 95%;
 }

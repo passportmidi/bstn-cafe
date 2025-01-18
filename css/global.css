@@ -68,6 +68,10 @@ button {
   position: relative;
 }
 
+ul { 
+  list-style-type: none;
+}
+
 .stack__button-container {
   width: max-content;
   height: max-content;
@@ -85,10 +89,6 @@ button {
   z-index: 1;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .header__logo {
   justify-content: center;
   align-items: center;
@@ -96,6 +96,11 @@ ul {
 
 .icon {
   width: 50px;
+}
+
+.bg-icon {
+  width: 7.5rem;
+  opacity: 25%;
 }
 
 .header-nav__list {
