@@ -22,15 +22,15 @@ section p {
 .card__body-container,
 .card__text-container,
 footer,
-.stack__desc--discount,
-.stack__icons--discount {
+.stack__desc--about,
+.stack__icons--about {
   display: flex;
 }
 
 .stack--intro,
 .stack__container,
 .card__text-container,
-.stack__icons--discount
+.stack__icons--about
 footer {
   flex-wrap: wrap;
 }
@@ -53,7 +53,7 @@ footer,
 }
 
 .stack__desc--intro {
-  width: 25%;
+  width: 28%;
   text-align: left;
 }
 
@@ -129,9 +129,16 @@ footer,
   align-items: flex-start;
 }
 
-.stack__desc--discount {
+.stack--about {
+  display: flex;
+  justify-content: space-around;
+  margin: 2.5rem 0rem;
+}
+
+.stack__desc--about {
   flex-direction: column;
   width: 35%;
+  justify-content: center;
 }
 
 .stack--discount {
@@ -139,9 +146,23 @@ footer,
   margin: auto;
 }
 
-.stack__icons--discount {
+.stack__icons--about {
   justify-content: space-between;
   margin-bottom: 1.25rem;
+}
+
+.about-img {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/images/coldbrewbackground.png");
+  width: 25rem;
+  height: 25rem;
+  padding: 1.25rem;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .discount-text {
