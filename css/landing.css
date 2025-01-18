@@ -5,11 +5,11 @@
 
 section h1,
 section p {
-  margin: 20px 0px;
+  margin: 1.25rem 0rem;
 }
 
 .stack {
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
 }
 
 .stack--products, .discount-text {
@@ -67,8 +67,8 @@ footer,
 
 .stack--products h2,
 .stack__button-container--products {
-  margin-top: 48px;
-  margin-bottom: 48px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .stack__button-container--products,
@@ -86,16 +86,16 @@ footer,
 .card {
   box-sizing: border-box;
   background-color: white;
-  width: 330px;
-  height: 440px;
-  /* padding: 20px; */
-  margin: 20px 40px;
-  border-radius: 10px;
-  box-shadow: 0 5px 9px -1px;
+  width: 20.625rem;
+  height: 27.5rem;
+  /* padding: 1.25rem; */
+  margin: 1.25rem 2.5rem;
+  border-radius: .625rem;
+  box-shadow: 0 .3125rem .5625rem -0.0625rem;
   color: rgba(0, 0, 0, 0.25);
-  /* margin-left: 44px;
-  margin-right: 44px;
-  padding: 0px;  */
+  /* margin-left: 2.75rem;
+  margin-right: 2.75rem;
+  padding: 0rem;  */
 }
 
 .card__title {
@@ -114,15 +114,15 @@ footer,
 }
 
 .card__image {
-  padding: 20px;
-  height: 280px;
+  padding: 1.25rem;
+  height: 17.5rem;
 }
 
 .card__text-container {
   justify-content: space-between;
   align-items: center;
-  padding: 32px 20px;
-  border-radius: 0px 0px 10px 10px;
+  padding: 2rem 1.25rem;
+  border-radius: 0rem 0rem .625rem .625rem;
 }
 
 .card__body-container {
@@ -133,23 +133,24 @@ footer,
 .stack--about {
   display: flex;
   justify-content: space-around;
-  margin: 40px 0px;
+  margin: 6.75rem 0rem;
 }
 
 .stack__desc--about {
   flex-direction: column;
-  width: 35%;
+  width: 32%;
   justify-content: center;
 }
 
 .stack--discount {
   width: 90%;
   margin: auto;
+  padding-bottom: 11.25rem;
 }
 
 .stack__icons--about {
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .about-image {
@@ -158,9 +159,9 @@ footer,
   justify-content: center;
   align-items: center;
   background-image: url("../assets/images/coldbrewbackground.png");
-  width: 400px;
-  height: 400px;
-  padding: 20px;
+  width: 25rem;
+  height: 25rem;
+  padding: 1.25rem;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -168,11 +169,11 @@ footer,
 }
 
 .discount-text {
-  font-size: 45px;
+  font-size: 2.8125rem;
   color: white;
   width: 90%;
   background-color: #393939;
-  padding: 24px;
+  padding: 1.5rem;
 }
 
 .discount-text--bold,
@@ -185,11 +186,11 @@ footer {
   overflow: hidden;
   align-items: baseline;
   position: relative;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .footer__title {
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
 }
 
 .bg-icon {
