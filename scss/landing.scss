@@ -1,6 +1,27 @@
-@use './partials/global' as *;
-@use './partials/colors' as *;
-@use './partials/mixins' as *;
+@use "./partials/global" as *;
+@use "./partials/colors" as *;
+@use "./partials/mixins" as *;
+
+@keyframes rotate-can {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes discount-bg {
+  0% {
+    background-color: $graphite;
+  }
+  50% {
+    background-color: $nitro-blue;
+  }
+  100% {
+    background-color: $graphite;
+  }
+}
 
 section h1,
 section p {
@@ -58,8 +79,8 @@ section p {
   width: 20.625rem;
   height: 27.5rem;
   margin: 1.25rem 2.5rem;
-  border-radius: .625rem;
-  box-shadow: 0 .3125rem .5625rem -0.0625rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
   color: rgba(0, 0, 0, 0.25);
   &__image {
     margin: auto;
@@ -76,7 +97,7 @@ section p {
     background-color: $nitro-pink;
     padding: 2rem 1.25rem;
     width: 100%;
-    border-radius: 0rem 0rem .625rem .625rem;
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
   }
   &__title {
     color: $graphite;
@@ -111,14 +132,20 @@ section p {
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
+  &__fg {
+    z-index: 2;
+    &:hover {
+      @include animation(rotate-can, 2s);
+    }
+  }
 }
 
 .discount-text {
+  @include animation(discount-bg, 2.5s);
   text-align: center;
   font-size: 2.8125rem;
   color: white;
   width: 90%;
-  background-color: $graphite;
   padding: 1.5rem;
   margin: auto;
   &--bold {

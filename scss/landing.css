@@ -104,6 +104,10 @@ p {
   top: -0.3125rem;
   left: -0.3125rem;
 }
+.border__btn:active {
+  top: 0rem;
+  left: 0rem;
+}
 
 .icon {
   width: 3.125rem;
@@ -118,6 +122,25 @@ p {
   color: #5bacc3;
 }
 
+@keyframes rotate-can {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes discount-bg {
+  0% {
+    background-color: #393939;
+  }
+  50% {
+    background-color: #5bacc3;
+  }
+  100% {
+    background-color: #393939;
+  }
+}
 section h1,
 section p {
   margin: 1.25rem 0rem;
@@ -256,13 +279,23 @@ section p {
   background-repeat: no-repeat;
   position: relative;
 }
+.about-image__fg {
+  z-index: 2;
+}
+.about-image__fg:hover {
+  animation: rotate-can 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 
 .discount-text {
+  animation: discount-bg 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   text-align: center;
   font-size: 2.8125rem;
   color: white;
   width: 90%;
-  background-color: #393939;
   padding: 1.5rem;
   margin: auto;
 }

@@ -1,11 +1,17 @@
 @mixin display($display, $justify, $align, $direction) {
-    display: $display;
-    justify-content: $justify;
-    align-items: $align;
-    flex-direction: $direction;
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin animation($name, $duration) {
+  animation: $name $duration;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @mixin reset_margins {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }

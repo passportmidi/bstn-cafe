@@ -98,6 +98,10 @@ p {
     border: 0.125rem solid $graphite;
     top: -0.3125rem;
     left: -0.3125rem;
+    &:active {
+      top: 0rem;
+      left: 0rem;
+    }
   }
 }
 
